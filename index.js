@@ -3,7 +3,7 @@ const _ = require('lodash');
 class HierarchyBuilder {
     constructor() { }
 
-    buildHierarchy(list, levels, relation, levelNo = 0, index = 0, resultSet = []) {
+    buildHierarchy(list, levels, relation = [], levelNo = 0, index = 0, resultSet = []) {
 
         if (levelNo == levels.length) return resultSet;
 
