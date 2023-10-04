@@ -257,7 +257,7 @@ const levels = [
 
 const builder = new HierarchyBuilder();
 
-const resultset = builder.buildHierarchy(input, levels, []);
+const resultset = builder.buildHierarchy(input, levels);
 
 //Using util.inspect method to see depply nested data.
 console.log(util.inspect(resultset, { showHidden: false, depth: null, colors: true }))
