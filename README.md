@@ -5,6 +5,9 @@
 > Convert flat structures to deeply nested hierarchical data in node.js. Transform flat objects array representations to array of nested objects.
 
 Basic usage example:
+```
+> npm install build-hierarchy -S
+```
 
 ```tsx
 const HierarchyBuilder = require('build-hierarchy');
