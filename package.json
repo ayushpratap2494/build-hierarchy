@@ -1,6 +1,6 @@
 {
   "name": "build-hierarchy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert flat structures to deeply nested hierarchical data in node.js. Transform flat objects array representations to array of nested objects.",
   "main": "index.js",
   "scripts": {
