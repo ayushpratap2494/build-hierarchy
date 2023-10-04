@@ -18,7 +18,8 @@
     "flat-2-hierarchy",
     "convert-flat",
     "nested-objects",
-    "flat-2-nested"
+    "flat-2-nested",
+    "flat array to nested array"
   ],
   "author": "Ayush Pratap",
   "license": "ISC",
