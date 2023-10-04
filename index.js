@@ -53,7 +53,7 @@ class HierarchyBuilder {
             if (!differentiator) {
                 let g = table[key];
                 if (parent) {
-                    let key = `${g['T0796_Level1_ID']}©®${g['T0800_Opt_Level1_ID']}`;
+                    let key = `${g['---']}©®${g['---']}`;
                     obj.children = relation[key];
                 } else {
                     obj.children = this.buildHierarchy(groupedMap[key], levels, relation, levelNo);
